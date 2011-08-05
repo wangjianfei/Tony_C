@@ -1,0 +1,11 @@
+node: 2   Type: directory    Mode:  0755   Flags: 0x0   Generation: 0
+User:  1000   Group:  1000   Size: 1024
+File ACL: 0    Directory ACL: 0
+Links: 3   Blockcount: 2
+Fragment:  Address: 0    Number: 0    Size: 0
+ctime: 0x4764cc3b -- Sun Dec 16 14:56:59 2007
+atime: 0x4764cc3b -- Sun Dec 16 14:56:59 2007
+mtime: 0x4764cc3b -- Sun Dec 16 14:56:59 2007
+BLOCKS:
+(0):24
+TOTAL: 1
