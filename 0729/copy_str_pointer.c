@@ -11,8 +11,8 @@ int main(int argc, const char *argv[])
     while(*ptr1 != '\0')
     {
        *ptr2 = *ptr1 ;
-       *ptr1++;
-       *ptr2++;
+       ptr1++;
+       ptr2++;
     }
     *ptr2 = '\0';
 

@@ -1,3 +1,11 @@
+/*   rewind 是该边文件的指示器位置 当刚刚进行了一次文件操作 又要进行时
+ *   文件指示器不在文件的开始  可以用rewind(fp)将文件指示器只在文件开头
+ *
+ *
+ *   fread
+ *
+ *
+ * */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
