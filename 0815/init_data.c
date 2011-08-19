@@ -22,6 +22,14 @@
 
 
 fbscr_t fb_v;
+int mx;
+int my;
+
+int player;
+u32_t current_color;
+char chess_board[X_NUM*Y_NUM];
+
+
 int init_data(void)
 {
   int fb = 0;
@@ -50,6 +58,9 @@ int init_data(void)
       exit(0);
   }
   memset(fb_v.memo,0,fb_v.w*fb_v.h*fb_v.bpp/8);//清屏的作用
+  memset(chess_board,0,X_NUM*Y_NUM);
+  player = 1;
+  current_color = BLACK;
 /*  int i = 0; 
   u32_t *p = fb_v.memo;
     
