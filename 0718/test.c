@@ -1,0 +1,8 @@
+#include<>
+
+int main()
+{
+  ZZ
+}
+
+
